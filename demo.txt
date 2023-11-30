@@ -1,0 +1,24 @@
+HTTP Request / Response:-
+Communication between clients and servers is done by request and response.
+● A client (browser) sends an HTTP request to the web.
+● A web server receives the request.
+● The server runs an application to process the request.
+● The server returns an HTTP response to the browsers.
+● The client (browser) receives the response.
+HTTP Request / Response Circle:
+The browser requests an HTML page. The server returns an HTML file.
+The browser requests a stylesheet. The server returns a CSS file.
+The browser requests a JPG image. The server returns a JPG file.
+The browser requests javascript code. The server returns a JS file.
+The browser requests data. The server returns data (XML or JSON)
+What is a Module in Node.js?
+Consider modules to be the same javascript libraries. A set of functions you
+want to include in your application.
+Each module in Node.js has its own scope, meaning the variables, functions,
+and other declarations inside a module are not accessible from outside unless
+explicitly exported.
+Node.js provides a set of built-in modules that offer commonly used
+functionality. These modules are available without requiring any additional
+installation and can be accessed using the require() function. Examples:
+include the http module for creating HTTP servers, the fs module for file
+system operations, and the path module for working with file paths.
