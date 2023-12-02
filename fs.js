@@ -1,5 +1,11 @@
-const { Console, log } = require('console');
-const fs = require('fs');
+// const { Console, log } = require('console');
+// const fs = require('fs');
+
+//my modual
+
+const maths = require("./maths"); 
+
+console.log(maths.add(4,6),maths.sub(4,6));
 
 //open-----------------------------------
 
